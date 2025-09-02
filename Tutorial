@@ -48,8 +48,15 @@ Pass: openmediavault
 
 11. Click pe SMB. Vom da click Enable la SMB, după vom merge pe Shares si dăm ADD și ne adăugam folderul deja creat. Putem modifica setări dacă dorim dar eu voi lăsa așa. (Merge modificat oricând)
 
-12.La NFS dăm click pe NFS, dupa Enable și shares și adaugam folderul! 
+12.La NFS dăm click pe NFS, dupa Enable și shares și adaugam folderul! (optional, daca nu doriti Mac si Linux)
 
 13. Dăm click Apply!
+
+14. Dacă apare o problemă, este de la NFS deoarece nu este gol HDD/SSD, și v-a trebui scos shared folder-ul și șters de la file system, trebuie dat erase la disks si refacut procesul.
+
+15. Pentru a adăuga folderul pe windows mergen in file explorer -> This PC -> click dreapta ->add shared location -> scrie \\adresa_ip\numele_folderului
+  Ne va intreba user-ul și parola user:pi iar parola:
+    Ne îintoarcem Pe OMV si mergen la users dăm click pe pi si după edit. Sciem noua parolă, dăm save și apply!
+Ne reîintoarcem pe windows introducem parola și suntem conectați!
 
 
