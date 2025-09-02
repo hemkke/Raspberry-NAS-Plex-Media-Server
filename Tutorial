@@ -21,5 +21,15 @@ sudo apt update && sudo apt upgrade
 2.Instalăm Open Media Vault
 wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash
 
-3.
+3.Sunteți delogați!
+Ne reconectam cu ssh pentru a verifica că este online (IP-ul se poate schimba)
+Intram pe browser și mergem la adresa de Ip a Raspberry Pi-ului.
+
+4. Suntem întâmpinați de un login page!
+Username: admin
+Pass: openmediavault
+
+5.Mergem la Sistem -> General Settings -> Web Administator Password și schimbam parola (optional, dar recomandat)
+
+6.
 
