@@ -15,3 +15,7 @@ Transformă un Raspberry Pi într-un NAS personal și server media cu Plex. Aces
 - Card microSD 16GB+  
 - HDD/SSD extern pentru stocare  
 - Conexiune la rețea (Ethernet recom
+
+---
+
+#Click pe Tutorial mai sus pentru a începe
