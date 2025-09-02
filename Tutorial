@@ -31,5 +31,25 @@ Pass: openmediavault
 
 5.Mergem la Sistem -> General Settings -> Web Administator Password și schimbam parola (optional, dar recomandat)
 
-6.
+6. Introducem HDD/SDD in raspberry pi
+
+7.Mergem la Storage -> Disk și căutăm HDD/SSD
+
+8.Mergem la Files Systems si selectam storage ul, după vom da click pe el si MOUNT!
+
+9.Mergem la Acces Rights Management si selectam Shared folders.
+  Click Add si îi vom adăuga nume și device ul. si după save.
+      Dacă aveți erori, click pe Acces Right Management si selectam pentru PI - Read/Right
+  CLICK PE APPLY PENTRU A SALVA TOTUL!!
+
+10. Urmează să activăm servicii:
+      NFS -> MAC SI LINUX
+      SMB -> WINDOWS
+
+11. Click pe SMB. Vom da click Enable la SMB, după vom merge pe Shares si dăm ADD și ne adăugam folderul deja creat. Putem modifica setări dacă dorim dar eu voi lăsa așa. (Merge modificat oricând)
+
+12.La NFS dăm click pe NFS, dupa Enable și shares și adaugam folderul! 
+
+13. Dăm click Apply!
+
 
