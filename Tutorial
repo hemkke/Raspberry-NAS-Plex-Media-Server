@@ -60,3 +60,30 @@ Pass: openmediavault
 Ne reîintoarcem pe windows introducem parola și suntem conectați!
 
 
+
+
+PLEX MEDIA SERVER
+PLEX MEDIA SERVER
+PLEX MEDIA SERVER
+
+1. Ne logăm în raspberry pi
+    ssh pi@parola
+
+2. sudo apt install apt-trasport-https
+    Instalăm
+
+3. curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+Instalăm plex
+
+4. echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+Adaugă plex repositoris
+
+5.sudo apt-get update
+Apdatăm totul!
+
+6. sudo apt install plexmediaserver
+Instalăm Plex
+
+7. Intrăm pe adresa Raspberyului:32400/web
+
+GATA!
