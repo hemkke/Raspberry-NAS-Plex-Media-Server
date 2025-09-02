@@ -18,4 +18,4 @@ Transformă un Raspberry Pi într-un NAS personal și server media cu Plex. Aces
 
 ---
 
-# Click pe Tutorial mai sus pentru a începe
+# Click pe "Tutorial" mai sus pentru a începe!
