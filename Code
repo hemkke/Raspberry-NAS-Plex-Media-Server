@@ -1,0 +1,4 @@
+1. Update la Software!
+
+```bash
+sudo apt update && sudo apt upgrade
